@@ -39,7 +39,7 @@ int main()
     int maxim = 100;
     srand(time(NULL));
     for (int i = 0; i < 10; i++) {
-        cout << "Number:" << rand()%(maxim - minim) + minim << "\n"; // numere intre 0 si 100
+        cout << "Number:" << rand()%(maxim - minim) + minim << "\n"; // numere intre 32 si 100
     }
     return 0;
 }
